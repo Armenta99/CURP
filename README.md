@@ -1,2 +1,2 @@
-# CURP
-Pagina CURP hecha con HTML, BOOTSTRAP, JAVASCRIPT
+# RFC
+Pagina RFC hecha con HTML, BOOTSTRAP, JAVASCRIPT
