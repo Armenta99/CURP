@@ -1,0 +1,67 @@
+  <%- contentFor('mycss') %>
+<section class="hero">
+</section>
+
+<div class="jumbotron jumbotron-fluid bg-success text-white" id="t0">
+  <div class="container">
+    <h1  style="text-align:center">Obtener RFC</h1>
+   
+  </div>
+</div>
+<%- contentFor('body') %>
+
+
+
+<div class="container shadow-lg">
+  <Center>
+  <div class="row">
+      <div class="col-md-12">
+          <div class="well well-sm">
+              <form class="form-horizontal" action="/home" method="post">
+                  <fieldset>
+                      <legend class="text-center header"><b>Llena con tus datos por favor</b></legend>
+
+                      <div class="form-group">
+                          <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                          <div class="col-md-8">
+                              <input id="fname" name="nombre" type="text" placeholder="Nombre" class="form-control">
+                          </div>
+                      </div>
+                     
+                      <div class="form-group">
+                          <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                          <div class="col-md-8">
+                              <input id="fname" name="App" type="text" placeholder="Apellido paterno" class="form-control">
+                          </div>
+                      </div>
+                    
+                      
+                      <div class="form-group">
+                          <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                          <div class="col-md-8">
+                              <input id="fname" name="Apm" type="text" placeholder="Apellido materno" class="form-control">
+                          </div>
+                      </div>
+
+
+                      
+                      <div class="form-group">
+                          <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                          <div class="col-md-8">
+                              <input id="fname" name="fecha" type="date" placeholder="Name" class="form-control">
+                          </div>
+                      </div>
+                     
+                   
+                      <div class="form-group">
+                          <div class="col-md-12 text-center">
+                              <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+                          </div>
+                      </div>
+                  </fieldset>
+              </form>
+          </div>
+      </div>
+  </div>
+  </Center>
+</div>

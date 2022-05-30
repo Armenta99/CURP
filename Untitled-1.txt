@@ -1,0 +1,4 @@
+x = "<p>This is a paragraph</p>"
+
+<%= x %>
+<%- x %>
